@@ -1,0 +1,264 @@
+@charset "UTF-8"; 
+
+@font-face {
+    font-family:'fandroid';
+    src: url('idroid.otf'), format('opentype'); }
+    @font-face {
+        font-family: 'covetica';
+        src: url(pacote-projeto-d010/fontes/coolvetica\ condensed\ rg.otf) format(opentype);
+    }
+
+*{
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #76a88d;
+   
+}
+
+   
+#container{
+    
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.291);
+    height: 100%;
+    min-width: 320px;
+    max-width: 800px;
+    padding: 20px;
+    
+
+ }
+  
+
+
+header{
+   background-image:linear-gradient(to top, #1A5C38, #45f694 ) ;
+   border: 0px;
+   text-align: center;
+   width: auto;
+  height: 150px;
+}
+
+h1 {
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+    font-weight:100  ;
+    font-family: 'covetica' ;
+    text-shadow:1px 1px 3px rgba(0, 0, 0, 0.678);
+
+    
+    
+}
+#subtitulo {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 15px;
+    font-weight: 100;
+    text-shadow:1px 1px 2px rgba(0, 0, 0, 0.791);
+    font-weight:lighter
+}
+
+#CABEÇALHOH2{
+color:#21623E;
+font-size: 27px ;
+font-family: 'fandroid', Helvetica, sans-serif;
+padding: 5px 15px 5px 15px;
+
+}
+ 
+h3{
+color:#21623E;
+font-size: 20px ;
+font-family: 'fandroid', Helvetica, sans-serif;
+background: linear-gradient(90deg,rgb(198, 241, 205) 0%, rgba(190, 190, 223, 0));
+padding: 2px;
+margin: 10px;
+
+}
+
+main p{
+    padding: 5px 15px 5px 15px;
+    text-indent: 1ch;
+    font-size: 17px;
+    margin: 10px;
+    text-indent:1em;
+    line-height: 30px;
+}
+
+main #destaque{
+    color: #0b4023;
+    font-weight:bolder ;
+    background-color: #97c9ae;
+    border-radius: 5px;
+    padding: 2px;
+    transition: 0.6s;
+}
+
+#container  #destaque:hover{
+    background-color: #9deec25d;
+}
+
+
+
+ol #cabeçalho{
+list-style:none;
+
+color: rgb(213, 56, 56);
+padding: 0px;
+}
+
+a{
+    text-decoration:none ;
+    color: white;
+}
+
+
+menu{
+    
+    
+    padding-bottom: 0%;
+    padding-left: 0px;
+  
+    font-size: 12px;
+    
+    
+    }
+#cabeçalho a{
+ padding: 7px;
+ border-radius: 7px;
+ transition-duration: 0.5s;
+ margin:1px ;
+}
+
+#cabeçalho1{
+    padding: 0px;
+    width: auto;
+  
+}
+    #cabeçalho1 a:hover{
+       background-color: #3ba26a;
+    
+    }
+
+    picture{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        
+    }
+    img{
+        width: 760px;
+    }
+    #androidimg{
+        max-width: 350px;
+        
+    }
+    
+    #video{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #1A5C38;
+        height: 450px;
+
+      
+    
+        
+    }
+     iframe{
+    height: 90%;
+    width:90%;
+
+        box-shadow:4px 4px 4px  #0922145d;
+        
+        
+
+    }
+   
+    #iriablok{
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.55);
+max-width: 100%;
+
+
+    }
+
+    #dandroids{
+        width: 100%;
+    }
+     
+    #androidimg{
+        width: 100%;
+    }
+    #extra{
+margin: 15px;
+background-color: #a8e9c4;
+border-radius: 15px;
+padding:0px 0px 10px 0px ;
+    }
+     
+     #titulodoextra{
+        background-color: #3ba26a;
+      border-radius: 15px 15px 0px 0px;
+      height: 30px;
+      color:#ffffff;
+      display: flex;
+     align-items: center; 
+     margin:0px;
+
+    
+    
+     }
+ul ::marker{
+    content: "\002714";
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding-right: 30px;
+    
+}
+ li{
+    padding-left: 8px;
+
+ }
+ .listaextra{
+    display: flex;
+
+    
+}
+
+.elementoslistaextra{
+    margin-right:150px;
+    margin-bottom: 10px;
+    
+}
+      #criador{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #257c4c;
+        margin: 10px 0px 0px 0px;
+        height: 30px;
+        color: white;
+      }
+       
+      i{
+        box-sizing: border-box;
+      }
+      
+     .underlinelista{
+        text-decoration: underline;
+     }
+
+   a.externo::after{
+    content:"\1F517"
+   }
+  
+    
+ 
+    
